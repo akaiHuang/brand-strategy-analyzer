@@ -6,7 +6,13 @@
 
 ---
 
-## Why This Exists
+## 📋 Quick Summary
+
+> 🏢 這是一套**AI 驅動的品牌策略引擎**，能將傳統品牌顧問數週的工作壓縮成自動化流程。📝 只需輸入品牌簡報，系統就會自動啟動**網頁爬蟲、消費者情緒分析**（涵蓋 18,700+ 篇 Dcard 討論）、**LLM 策略生成**和**品質審核迭代**。🎨 產出不是模糊摘要，而是**生產等級的品牌策略報告**：包含消費者痛點分析、品牌定位框架、多概念創意方向（如「設計無形」、「充電靈魂」等完整提案），以及附帶文案、Hashtag、互動預測的 **100 篇貼文內容日曆**。🕷️ 爬蟲模組採用 Playwright + 反偵測技術（動態 UA 輪替、WebGL 偽裝、滑鼠軌跡模擬）。🤖 支援 GPT-4 / Claude 雙模型，搭配 SerpAPI 搜尋與 Firestore 任務管理。🧪 含 17 個 pytest 測試。💡 源自 Ogilvy 15 年以上的廣告代理商經驗，適合**品牌主、策略顧問、行銷團隊**快速產出專業級策略文件。
+
+---
+
+## 🤔 Why This Exists
 
 Brand strategy consulting traditionally costs tens of thousands of dollars and takes weeks. It requires consumer research, competitive analysis, positioning workshops, and content planning -- all done manually by teams of strategists and creatives.
 
@@ -16,7 +22,7 @@ Built from 15+ years of agency experience at Ogilvy, translated into reproducibl
 
 ---
 
-## Architecture
+## 🏗️ Architecture
 
 ```
 Brand Brief Input
@@ -74,7 +80,7 @@ Each concept includes headline, body copy, category taglines, and deployment rec
 
 ---
 
-## Core Modules
+## 🧩 Core Modules
 
 | Module | Purpose |
 |--------|---------|
@@ -90,7 +96,7 @@ Each concept includes headline, body copy, category taglines, and deployment rec
 
 ---
 
-## Tech Stack
+## 🛠️ Tech Stack
 
 | Layer | Technology |
 |-------|------------|
@@ -104,7 +110,7 @@ Each concept includes headline, body copy, category taglines, and deployment rec
 
 ---
 
-## Quick Start
+## 🚀 Quick Start
 
 ```bash
 # Install dependencies
@@ -127,12 +133,12 @@ python -m marketsense.main_dashboard
 
 ---
 
-## Author
+## 👤 Author
 
 **Huang Akai (Kai)** -- Founder @ Universal FAW Labs | Creative Technologist | Ex-Ogilvy | 15+ years experience
 
 ---
 
-## License
+## 📄 License
 
 MIT
